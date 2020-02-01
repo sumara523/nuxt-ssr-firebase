@@ -9,7 +9,7 @@
     "dev": "cd \"src\" && yarn dev",
     "build": "yarn build:nuxt && yarn clean && yarn copyassets",
     "serve": "firebase serve --only functions,hosting",
-    "deploy": "firebase deploy",
+    "deploy": "firebase deploy --project techtogether-f859d",
     "predeploy": "yarn build",
     "setup": "yarn install && yarn setup:client && yarn setup:firebase && yarn setup:server",
     "setup:client": "cd \"src\" && yarn install",
